@@ -33,6 +33,89 @@
   },
   "choices": [
     {
+      "title": "Origin",
+      "description": "The tale of your birth & childhood.",
+      "style": "boxes",
+      "choicesUnique": true,
+      "maxChoices": 1,
+      "options": [
+        {
+          "title": "Delarun - the Cave City",
+          "description": "In the depths of the earth, the dwarven city of Delarun thrums with ancient power, its tunnels winding like veins through granite rock. Here, the stout-hearted folk forge their destiny amidst glittering crystals and precious metals. Yet beneath the surface, rival clans jostle for dominance in a struggle that echoes the very earth itself.",
+          "image": "/images/origin-delarun.webp",
+          "cost": [50, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Origin",
+              "data": "Delarun - the Cave City"
+            },
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Delarun Lantern",
+                "desc": "Famed for their compact size & brigth light, it is a token of your childhood"
+              }
+            }
+          ]
+        },
+        {
+          "title": "The Looming Spires",
+          "description": "Here, pilgrims journey to honor the god of harvests, whose blessings have long nurtured the nearby forests through times of famine and plenty. But amidst this tranquility, a crisis brews - a bitter feud between neighboring monasteries over faith's finer points threatens to spill blood on sacred grounds, amid it's high walls the hermitage of Gorruk holds fast to its dwarven traditions, and religious fervor is beginning to boil over into petty squabbles and skirmishes!",
+          "image": "/images/origin-looming-spires.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Origin",
+              "data": "The Looming Spires"
+            }
+          ]
+        },
+        {
+          "title": "Bennet's Rest",
+          "description": "Bennet's Rest lies shrouded in darkness, once a beacon of nobility now mired by greed and tyranny. The ruling house of Aldhelm holds its subjects in an iron grip, siphoning off all prosperity for their own gluttonous desires. Yet beneath the yoke of oppression, the people of Bennet' rest find solace in their skill as horsemen - true messengers and warriors, cherished throughout the land, allowing this place to be one of the few safe from banditry",
+          "image": "/images/origin-bennets-rest.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Origin",
+              "data": "Bennet's Rest"
+            }
+          ]
+        },
+        {
+          "title": "Dinnol Pits",
+          "description": "Here desperate souls are devoured by brutal realities. A city of stone and despair, where every breath is tainted by the stench of death and desperation. Its only exports are the prisons that breed more suffering and the mercenaries forged in those very hells. Vices writhe like maggots in every festering wound, survival a cruel joke played on the downtrodden. The power trio rules with iron fist: the cunning Johnsons  - old bloodline of hustlers and gamblers, the red falcons  - a motley crew of orphaned thugs who recruit only from the most wretched, and the enigmatic Hlothere  - nobles in name and mask, pulling strings of power from behind their lavish facade. Survival here means knowing your place and your threats   - for in Dinnol pits, one misstep can mean a lifetime in those very prisons.",
+          "image": "/images/origin-dinnol-pits.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Origin",
+              "data": "Dinnol Pits"
+            }
+          ]
+        },
+        {
+          "title": "Fort Gorrot",
+          "description": "Fort Gorrot stands like a crumbling behemoth on the precipice of a wild river, its very presence exuding an aura of darkness and decay. Once it was a mighty bastion of chivalry, but now it's a husk of what it once was - its glorious reputation sullied by the ambitions of Errant knights who sought fame in conquest rather than honor. And so we are left with High Chaplain Oswald guiding us through the wilderness of despair within those crumbling walls. Will his moral hand be strong enough to right the wrongs and unleash Fort Gorrot's full fury against a true enemy, or shall it's knight once again fall to greed.",
+          "image": "/images/origin-fort-gorrot.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Origin",
+              "data": "Fort Gorrot"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Character Archetype",
       "description": "The archetype from which your character descends",
       "style": "list",
@@ -218,50 +301,6 @@
                 "name": "Sacred Tome",
                 "desc": "A leatherbound tome that was once held by a much revered prophet. Speaks of history and traditions"
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Origin",
-      "description": "The tale of your birth & childhood.",
-      "style": "boxes",
-      "choicesUnique": true,
-      "maxChoices": 1,
-      "options": [
-        {
-          "title": "Delarun - the Cave City",
-          "description": "In the depths of the earth, the dwarven city of Delarun thrums with ancient power, its tunnels winding like veins through granite rock. Here, the stout-hearted folk forge their destiny amidst glittering crystals and precious metals. Yet beneath the surface, rival clans jostle for dominance in a struggle that echoes the very earth itself.",
-          "image": "/images/origin-delarun.webp",
-          "cost": [50, 0],
-          "effects": [
-            {
-              "type": "uniqueString",
-              "key": "Origin",
-              "data": "Delarun - the Cave City"
-            },
-            {
-              "type": "list",
-              "key": "Items",
-              "data": {
-                "quantity": 1,
-                "name": "Delarun Lantern",
-                "desc": "Famed for their compact size & brigth light, it is a token of your childhood"
-              }
-            }
-          ]
-        },
-        {
-          "title": "The Looming Spires",
-          "description": "Here, pilgrims journey to honor the god of harvests, whose blessings have long nurtured the nearby forests through times of famine and plenty. But amidst this tranquility, a crisis brews - a bitter feud between neighboring monasteries over faith's finer points threatens to spill blood on sacred grounds, amid it's high walls the hermitage of Gorruk holds fast to its dwarven traditions, and religious fervor is beginning to boil over into petty squabbles and skirmishes!",
-          "image": "/images/origin-looming-spires.webp",
-          "cost": [0, 0],
-          "effects": [
-            {
-              "type": "uniqueString",
-              "key": "Origin",
-              "data": "The Looming Spires"
             }
           ]
         }
