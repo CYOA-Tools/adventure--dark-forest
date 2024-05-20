@@ -101,6 +101,125 @@
               }
             }
           ]
+        },
+        {
+          "title": "Human Wanderer",
+          "description": "'The Wanderer stands tall on the desolate plain, their worn leather boots planted firmly in the dusty ground as if rooted like an ancient tree. The weathered canvas backpack slung over their shoulder seems to blend seamlessly into the environment, its faded colors mimicking the hues of the sun-scorched earth and sky above. A wispy beard fringes their chin, a wild tangle of gray that speaks more of wisdom gained than age claimed. And yet, despite this rugged appearance, there is an air of quiet confidence about them - like a still pond reflecting the serenity of its surroundings, they exude tranquility deep within. But it's not just who they are or what they've seen that sets them apart, but also the staff in hand: a gnarled, twisted wood that seems to hum with a power as ancient and wild as the earth itself.",
+          "image": "/images/archetype-human-wanderer.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Archetype",
+              "data": "Human Wanderer"
+            },
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Strange staff",
+                "desc": "An old runed staff, hums with the energy strange powers"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Human Druid",
+          "description": "The Human Druid stands tall amidst the ancient forest, their bare feet rooted to the earth like tree trunks, as they raise 'Moonstone Chimes' towards the lunar orb hanging low in the sky. The soft silver tones of the chimes seem to resonate in harmony with the moon's gentle light, bathing them in a soothing glow that invigorates and rejuvenates their very being. With each delicate note, they channel the full force of the lunar energy into their body, thus energised, they serve as a beacon to guide lost travelers through treacherous landscapes, shining brightly under moonlight like a celestial pathfinder. Following hidden lanes reserved only for those that know the old ways, the druid travels safetly, safe from any beast natural to the land",
+          "image": "/images/archetype-human-druid.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Archetype",
+              "data": "Human Druid"
+            },
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Moonstone Chimes",
+                "desc": "Six crystal disks each etched with ancient runes, guide the way through the old forests"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Dwarf Guardian",
+          "description": "At the very threshold of the ancient stronghold stands mighty dwarf, resplendant in plate, his stalwart form a bulwark against the unknown dangers lurking beyond. His battle-worn armor glints like polished granite beneath the flickering torchlight, each plate etched with runes that whisper tales of unyielding bravery and unwavering duty. At shoulder height, he wields his trusty shield  - a behemoth of darkwood adorned with silver bolts and the emblem of the dwarven clans. Upon its surface, ancient wisdom is inscribed in letters as bold as the first stories told by firelight: 'Let none pass who do not bear honor in their heart.' A stern gaze from eyes like polished jet surveys all who approach, challenging them to prove their worthiness before the gates of old earth secrets. The very ground beneath his feet seems solidified into a testament of unshakeable resolve - and so too does he embody that unyielding spirit of dwarven resilience.",
+          "image": "/images/archetype-dwarf-guardian.webp",
+          "cost": [50, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Archetype",
+              "data": "Dwarf Guardian"
+            },
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Plate Armor",
+                "desc": "Forged from the earth itself. It is as solid as ancient stone and nearly impenetrable to even the most determined foe"
+              }
+            },
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Tower Shield",
+                "desc": "A behemoth of darkwood adorned with silver bolts and the emblem of the dwarven clans. Rune carved."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Dwarf Scout",
+          "description": "Striding across the battle-scarred plains like a living embodiment of his people's unyielding resolve. His dark beard flows behind him like a river of night, its braids woven with the silver threads of countless tales told and secrets kept. A mischievous glint in his eye hints at the assassin within  - one who can slip unnoticed into the shadows or strike swift and silent as a thunderclap. But it is also the diplomat's charm that opens doors, smooths ruffled feathers, and weaves alliances that will weather any storm of war. For Grimgold wears many hats and plays them all with equal aplomb: master of disguise, master of death, and master of negotiation  - a true Renaissance dwarf of old earth wit and cunning.",
+          "image": "/images/archetype-dwarf-scout.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Archetype",
+              "data": "Dwarf Scout"
+            },
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Poisoned Dagger",
+                "desc": "A tiny but deadly instrument forged from the darkest depths of the mines. Its poison seeps into the wounds like bitter regret"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Dwarf Cleric",
+          "description": "Stepping forth with all the authority of ancient earth beneath his feet, eyes aglow like embers of eternal flame illuminate the face of this devout cleric, ever ready to defend the innocent or lead them in fervent song of praise. At his side hangs his sacred tome, the revered 'Chronicles of Deep Earth', the sacred tome of their people's history and spiritual traditions. His voice booms like thunder from the mountains, shaking the very foundations of those who hear it  - a true shepherd of old earth' s faithful.",
+          "image": "/images/archetype-dwarf-cleric.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Archetype",
+              "data": "Dwarf Cleric"
+            },
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Sacred Tome",
+                "desc": "A leatherbound tome that was once held by a much revered prophet. Speaks of history and traditions"
+              }
+            }
+          ]
         }
       ]
     },
@@ -112,22 +231,22 @@
       "maxChoices": 1,
       "options": [
         {
-          "title": "Origoth - the Cave City",
-          "description": "In the depths of the earth, the dwarven city of Origoth thrums with ancient power, its tunnels winding like veins through granite rock. Here, the stout-hearted folk forge their destiny amidst glittering crystals and precious metals. Yet beneath the surface, rival clans jostle for dominance in a struggle that echoes the very earth itself.",
-          "image": "/images/origin-origoth.webp",
+          "title": "Delarun - the Cave City",
+          "description": "In the depths of the earth, the dwarven city of Delarun thrums with ancient power, its tunnels winding like veins through granite rock. Here, the stout-hearted folk forge their destiny amidst glittering crystals and precious metals. Yet beneath the surface, rival clans jostle for dominance in a struggle that echoes the very earth itself.",
+          "image": "/images/origin-delarun.webp",
           "cost": [50, 0],
           "effects": [
             {
               "type": "uniqueString",
               "key": "Origin",
-              "data": "Origoth - the Cave City"
+              "data": "Delarun - the Cave City"
             },
             {
               "type": "list",
               "key": "Items",
               "data": {
                 "quantity": 1,
-                "name": "Origoth Lantern",
+                "name": "Delarun Lantern",
                 "desc": "Famed for their compact size & brigth light, it is a token of your childhood"
               }
             }
