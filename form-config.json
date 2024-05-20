@@ -2,13 +2,13 @@
   "setup": {
     "points": [
       {
-        "startValue": 1000,
+        "startValue": 800,
         "fullName": "Character Points",
         "name": "Pts",
         "icon": "/icons/character-points.png"
       },
       {
-        "startValue": 4,
+        "startValue": 3,
         "fullName": "Skill Points",
         "name": "SkP",
         "icon": "/icons/skill-points.png"
@@ -26,9 +26,9 @@
     "version": "0.1"
   },
   "intro": {
-    "title": "Welcome to the example",
-    "introText": "lorem epsum df hsd fhsd fklsd fhaldksfh asf dfv jhasf ghs j",
-    "subtitle": "You start with 1000 MP, choose wisely",
+    "title": "A dark shadow looms over are an already dangerous land, a hero must step up to guide these disunited lands to a new golden era",
+    "introText": "Welcome, brave adventurer, as you stand at the crossroads of destiny. The winds howl through the endless forest canopy like a chorus of ancient spirits, their whispers weaving a tale of forgotten lore and bygone heroes. It is an age of darkness, when every village is but a faint flicker in the vast expanse of night, yet it may also be an era of rebirth for those brave enough to forge a new path. The Celtic fantasy world of DarkForest beckons you with its mystical forests, ancient ruins, and mythical creatures - will you answer the call, or shall these young lands plunge into ruin?",
+    "subtitle": "You begin with 800 Choice Points, and 3 Skill Points, choose wisely",
     "baseImage": "/images/base-image.webp"
   },
   "choices": [
