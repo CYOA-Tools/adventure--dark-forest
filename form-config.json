@@ -112,6 +112,45 @@
               "data": "Fort Gorrot"
             }
           ]
+        },
+        {
+          "title": "Gorruk's Hermitage",
+          "description": "High above the rest, a dwarven bastion stands steadfast against the tempestuous tides of darkness and chaos, its ancient stones impervious to the corrupting influences that plague the world below. Here Gorruk' s zealous followers hold fast to their unshakeable creed, their unwavering resolve illuminated by the beacon of truth. Should only the misguided heretics behold this radiant light, a harmonious kingdom of mortal and dwarf might yet be forged, sheltered from the looming shadows that threaten to engulf all. The call of Fort Eadharras beckons, though for Gorruk' s stalwart defenders it remains but a distant rumble in their ears, their gaze instead fixed upon the treacherous allurements of neighboring Looming Spires - a constant reminder of the perilous path they steadfastly avoid.",
+          "image": "/images/origin-hermitage.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Origin",
+              "data": "Gorruk's Hermitage"
+            }
+          ]
+        },
+        {
+          "title": "Lake Fardiir",
+          "description": "Lake Fardiir's scattered settlements cling to the rocky shore like barnacles on an ancient wreck, their humble dwellings huddled together in meager defiance of the unforgiving waters. The lord of this dominion holds sway with an iron fist and a heart of stone   - his taxes draining the already meager resources, leaving the villagers to eke out a bare existence from the very earth they till and the fish that struggle through the lake's icy depths. Yet still they cling to their rugged way of life, sustained by tales of freedom and adventure passed down through generations of hardy stock   - dreams of rebellion kindling in the hearts of young men like embers waiting for a spark.",
+          "image": "/images/origin-lake-fardiir.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Origin",
+              "data": "Lake Fardiir"
+            }
+          ]
+        },
+        {
+          "title": "LandsKarn End",
+          "description": "Once the site of epic conflict, Landskarn End now bears witness to humanity's struggle against the corrupting tendrils of the Dinnol pits' dark power. Here, those seeking refuge from such evil are met with the Inquisition's iron-fisted resolve  - a crusade aimed at purifying the soul through rigid moral standards and public shaming. Censors patrol the streets, scrutinizing every move and thought to identify transgressors whose names are subsequently etched in the town square's infamous register of shame. But beneath this façade of moral rectitude, an insidious underworld thrives  - a labyrinthine network of illicit vices that burrow deep into the darkest recesses of human heart and soul.",
+          "image": "/images/origin-landskarn.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Origin",
+              "data": "LandsKarn End"
+            }
+          ]
         }
       ]
     },
@@ -307,6 +346,14 @@
       ]
     },
     {
+      "title": "Accursed Artifact",
+      "description": "Fate has found you, and placing upon your hands a boon and burden, this magical item sets your quest in motion, for within it, lies the fate of many.",
+      "style": "boxes",
+      "choicesUnique": true,
+      "maxChoices": 1,
+      "options": []
+    },
+    {
       "title": "Allies",
       "description": "Brothers sworn to your side, and who can be called upon in times of trouble",
       "style": "list",
@@ -415,7 +462,8 @@
               }
             }
           ]
-        },{
+        },
+        {
           "title": "Druidic Shapeshifter",
           "description": "You have the capacity to change your form into that of a wolf or a bear",
           "cost": [0, 3],
