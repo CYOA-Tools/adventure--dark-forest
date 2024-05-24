@@ -351,7 +351,110 @@
       "style": "boxes",
       "choicesUnique": true,
       "maxChoices": 1,
-      "options": []
+      "options": [
+        {
+          "title": "Cloak of the Death Walker",
+          "description": "The Cloak of the Death Walker is said to hold the power to bend reality, warping death into mere mortal inconvenience. It's as if the very fabric of existence were twisted and distorted within its worn leather folds. Wearers can manipulate time itself, stepping across the veil between life and death like a spectral waltzer gliding through realms unseen. But be warned - the cloak is said to exact a gruesome toll for every power it bestows, draining vitality with each step into the shadows of the unknown. Shall you don this macabre mantle, embracing the darkness within or will you succumb to its unfathomable hunger?",
+          "image": "/images/artifact-cloak.webp",
+          "cost": [50, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Artifact",
+              "data": {
+                "quantity": 1,
+                "name": "Ragnar 'Mad Axe' Erifson",
+                "desc": ""
+              }
+            }
+          ]
+        },
+        {
+          "title": "Blood-Forged Blade",
+          "description": "The Blood-Forged Blade beckons its chosen wielder like a siren's fatal song  - an ornate dagger whose crimson-stained steel appears perpetually refreshed by some dark power. A constant reminder of its deadly promise, it calls out to its master with every beat of your heart, each whisper urging you back into the abyss from which it arose. It's holder must skirt the edges of madness as the under the moonlight the call of madness erupts, but for those who can withstand it's dark call are granted the power to step into the shadow realm, returning only at the cost of the taking of a mortal soul",
+          "image": "/images/artifact-dagger.webp",
+          "cost": [50, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Artifact",
+              "data": {
+                "quantity": 1,
+                "name": "Blood-Forged Blade",
+                "desc": "Allows user to move as a hidden shadow, must kill to return, undermoonight the call of madness will strike at the will"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Mirror of Deepsouls",
+          "description": "The Mirror of Deepsouls - a reflection of your innermost thoughts, both blessing and curse in equal measure. It whispers secrets to those who seek wisdom, yet gazes back at you with cold, unforgiving judgment. Its power could be yours for the taking... or forever trapped within its silvery depths, a reminder of all your deepest fears and darkest desires. It's user can call forth the wisdom of their ancestor's but riskfalling to the desires of their predecessors",
+          "image": "/images/artifact-mirror.webp",
+          "cost": [50, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Artifact",
+              "data": {
+                "quantity": 1,
+                "name": "Mirror of Deepsouls",
+                "desc": "Access to wisdom of ancestor's, but are pulled to their desires of their own"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Pendant",
+          "description": "The Pendant of Winter's Twilight glimmers with emerald green fire within its heart-shaped confines. Said to hold the essence of the frosty season, this icy charm can summon the most biting winter winds and plunge even the sunniest lands into frigid darkness. But be prepared for a terrible price - each time you wield its magic, your own vital warmth will slowly fade away like autumn leaves under winter's relentless grip. How far will you go to command the might of eternal ice? Or will you find yourself forever trapped in the cold, dark heart of winter's twilight?",
+          "image": "/images/artifact-pendant.webp",
+          "cost": [50, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Artifact",
+              "data": {
+                "quantity": 1,
+                "name": "Ragnar 'Mad Axe' Erifson",
+                "desc": ""
+              }
+            }
+          ]
+        },
+        {
+          "title": "Ruby",
+          "description": "The Stone of All Hallows Eve radiates an otherworldly crimson glow. Legend has it that this ancient ruby holds the power to bend time itself, conjuring visions of past and present as if they were mere whispers in your ear. But beware, for with each glimpse into the vast tapestry of existence, you risk being consumed by the weight of countless lives lived and lost. Can you wield its power without succumbing to the crushing burden of all that has been? Or will you find yourself forever trapped within the swirling vortex of All Hallows Eve, reliving eternity's triumphs and tragedies?",
+          "image": "/images/artifact-ruby.webp",
+          "cost": [50, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Artifact",
+              "data": {
+                "quantity": 1,
+                "name": "Ragnar 'Mad Axe' Erifson",
+                "desc": ""
+              }
+            }
+          ]
+        },
+        {
+          "title": "Waterskin of Eternal Secrets",
+          "description": "The Waterskin of Eternal Secrets holds within its worn leather walls a single sip of the fabled Pool of Whispers. Legend says that this enchanted water can grant the deepest insights into any mystery you choose to unravel - but at what terrible cost? With each quenching of your thirst, you risk unleashing a torrent of forgotten knowledge that could drive even the strongest mind to madness! Can you brave the dark depths of the waterskin's secrets, or will its power drown you in an ocean of unspoken truths?",
+          "image": "/images/artifact-waterskin.webp",
+          "cost": [50, 0],
+          "effects": [
+            {
+              "type": "uniqueString",
+              "key": "Artifact",
+              "data": {
+                "quantity": 1,
+                "name": "Ragnar 'Mad Axe' Erifson",
+                "desc": ""
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Allies",
