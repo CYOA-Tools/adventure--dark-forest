@@ -457,6 +457,117 @@
       ]
     },
     {
+      "title": "Threat",
+      "description": "Aquiring an accursed artifact has made you target for a great evil that has set it's sight upon you.",
+      "style": "list",
+      "choicesUnique": true,
+      "maxChoices": 1,
+      "options": [
+        {
+          "title": "The Four Automatons",
+          "description": "The Automatonic Werewolf stalks forth, its mechanical limbs moving with an unnatural, almost supernatural gait. Its metal fur rises as it senses your proximity, the very air charged with electric anticipation. The artifact is its quest; it's master has built it and three others only for the purpose of the return of his lost artifact, and they will stop at nothing, rebuilding themselves anew when broken, to return this favoured relic",
+          "image": "/images/nemesis-automaton.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Threat",
+              "data": {
+                "quantity": 1,
+                "name": "The Four Automatons",
+                "desc": "Four huge werewolf-like machines bent on the return of their lost artifact"
+              }
+            }
+          ]
+        },
+        {
+          "title": "The Ungark Trolls",
+          "description": "The Ungark Trolls hunger for conquest is insatiable! Their very name strikes fear into the hearts of all who know them - violent, cruel, and strong. They crave more than just sustenance from the rich lands they've invaded; legend has it that a powerful artifact stolen from their ancient temple will seal their dominance forevermore, and their hunger for it's return drive's ever forward",
+          "image": "/images/nemesis-troll.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Threat",
+              "data": {
+                "quantity": 1,
+                "name": "The Ungark Trolls",
+                "desc": "A tribe of conquering beasts, bent on returning their stolen artifact to their holy temple"
+              }
+            }
+          ]
+        },
+        {
+          "title": "The Haruspex",
+          "description": "Behold! The haruspex, an embodiment of malevolent power in a twisted, gaunt frame. His eyes burn with a fire that can freeze blood and melt steel as he whispers his deadly intentions in a voice like a serpent's kiss. His very presence seems to suck the light from around him, leaving only darkness and despair in its wake. His prime desire, to gather powerful artifacts to his own collection, whispers have come to him of a device of incredible power, held within the darkwood groves.",
+          "image": "/images/nemesis-haruspex.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Threat",
+              "data": {
+                "quantity": 1,
+                "name": "The Haruspex",
+                "desc": "A dark mage hungering for the magical artifact of old, it's voice corrupting and evil drains life from all that stand in his way"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Erred-Mhuur",
+          "description": "Erred-Mhuur, the merciless hunter! consumed by a maddening hunger to devour the very essence of all magical things, beast and relic alike. To aid in need to drain the magic from the world, it has twisted the form of its victim's into monstrous creations - dark, bloodthirsty shadows with glowing red runes that seem to burn brighter with every death they claim. It's malign influence spreads like a cancer through the land, corrupting all it touches. And now, within it's sight lies a magical artifact, a rich meal that would bring it to full power, and lay darkness upon the world",
+          "image": "/images/nemesis-leshen.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Threat",
+              "data": {
+                "quantity": 1,
+                "name": "Erred-Mhuur",
+                "desc": "Magical essence drainer, turns magical beasts into currupted shadows marked with runes, hunts for the artifact"
+              }
+            }
+          ]
+        },
+        {
+          "title": "The Red Vipers",
+          "description": "The Red Vipers, a bandit group of untold dedication, held together by an unbreakable blood vow, they work togther to further their strength. Their leader, Woden the Blackhearted, has an insatiable thirst for power, whether my gathering more dispossed to his banner, or by acquiring an artifact of greath power, his will shall mark the land. Striking from the cold north, they have already massed a large base of powerful warriors, who now journey south, following the whispers of a relic of great power.",
+          "image": "/images/nemesis-tribesmen.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Threat",
+              "data": {
+                "quantity": 1,
+                "name": "The Red Vipers",
+                "desc": "A bandit group led by Woden the Blackhearted, hope to gain power by gather soldiers & acquiring a powerful artefact"
+              }
+            }
+          ]
+        },
+        {
+          "title": "The Whisperer",
+          "description": "The tools of the dark god's where thought lost, but one, one has been recovered, and now lies in mortal hands. To these gods there is no greater threat, for this heresy they have sent the whisperer, a shadowed wanderer whose mere presence is to invite catastrophe. Disease, plagues, civil war all spread as he walks the earth, unwavering his calm stroll and silence a mere focal point from which the land plunges into darkness as it's searches for what mortal kind should not have. By his side stand the ghostly honor guard, three great warriors whose legends are known across the lands.",
+          "image": "/images/nemesis-whisperer.webp",
+          "cost": [0, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Threat",
+              "data": {
+                "quantity": 1,
+                "name": "The Whisperer",
+                "desc": "Paragon of despair, plunges all nearby into calamity, and aided by three ghostly, legendary warriors"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Allies",
       "description": "Brothers sworn to your side, and who can be called upon in times of trouble",
       "style": "list",
