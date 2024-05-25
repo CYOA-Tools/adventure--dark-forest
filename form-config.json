@@ -2,7 +2,7 @@
   "setup": {
     "points": [
       {
-        "startValue": 800,
+        "startValue": 600,
         "fullName": "Character Points",
         "name": "Pts",
         "icon": "/icons/character-points.png"
@@ -250,7 +250,7 @@
           "title": "Human Druid",
           "description": "The Human Druid stands tall amidst the ancient forest, their bare feet rooted to the earth like tree trunks, as they raise 'Moonstone Chimes' towards the lunar orb hanging low in the sky. The soft silver tones of the chimes seem to resonate in harmony with the moon's gentle light, bathing them in a soothing glow that invigorates and rejuvenates their very being. With each delicate note, they channel the full force of the lunar energy into their body, thus energised, they serve as a beacon to guide lost travelers through treacherous landscapes, shining brightly under moonlight like a celestial pathfinder. Following hidden lanes reserved only for those that know the old ways, the druid travels safetly, safe from any beast natural to the land",
           "image": "/images/archetype-human-druid.webp",
-          "cost": [0, 0],
+          "cost": [50, 0],
           "effects": [
             {
               "type": "uniqueString",
@@ -802,7 +802,7 @@
           "title": "Ragnar 'Thunderhammer' Erifson",
           "description": "A gruff, battle-scarred dwarf with a heart of gold beneath his prickly exterior! When he lets loose with his trusty warhammer, the very earth shakes and giants tremble - but only after he's had his morning ale and a good belly laugh! A loyal ally to count on in the heat of battle. Just don't get him started on his least favorite topic: bards. The mere mention sends him stomping off in a huff, muttering something about 'too many notes'.",
           "image": "/images/ally-ragnar.webp",
-          "cost": [100, 0],
+          "cost": [50, 0],
           "effects": [
             {
               "type": "list",
@@ -828,6 +828,117 @@
                 "quantity": 1,
                 "name": "Karrick 'Steel' Olborn",
                 "desc": "Grumpy dwarven drunkard, cunning, if dangerous planner. +chubby ladies, -sheriffs"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Dwarven Mercenaries",
+          "description": "Dwarven Mercenaries, sturdy as the mountains they hail from! Their loyalty is a precious commodity, but don't forget to grease their palms with gold or gems every now and then. With their axes at your side, you're sure to conquer any battle that comes your way - just be prepared for them to disappear when the pay runs out! ",
+          "image": "/images/ally-dwarves.webp",
+          "cost": [100, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Allies",
+              "data": {
+                "quantity": 1,
+                "name": "",
+                "desc": "Four strong warriors who are loyal as long as they are paid"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Killborn the Bear",
+          "description": "A grizzled, battle-scarred bear with a coat as black as coal and eyes that burn like hot coals in his head. His fur is matted and tangled, with streaks of dried blood running through it like veins on a rock. A deep scar runs from his cheek to his jawline, giving him an perpetually snarled expression. He's the size of a small boulder, with muscles rippling beneath his thick hide as he moves. His roar can be heard for miles and his paws can crush a man like an insect. But despite all his intimidating features, there's something almost endearing about him. Maybe it's his goofy grin or the way he always seems to find joy in the simplest things. Whatever it is, Killborn is my trusted ally and friend - even if he does sleep most of the day away.",
+          "image": "/images/ally-killborn.webp",
+          "cost": [50, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Allies",
+              "data": {
+                "quantity": 1,
+                "name": "Killborn the Bear",
+                "desc": "Scarred bear you raised from a cub, sleeps a lot"
+              }
+            },
+            {
+              "type": "list",
+              "key": "Languages",
+              "data": {
+                "quantity": 1,
+                "name": "Bear Speech",
+                "desc": "The capacity to speak the tongue of bears"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Forest Rangers",
+          "description": "A trio of deadly forest hunters who track their prey with eyes that pierce through darkness and silence like ghosts. Their faces are as rugged as the bark on ancient trees, their bodies honed from generations of living off the land. They move as one, a silent symphony of death, their bows singing in perfect harmony as they stalk their quarry across the forest floor. There's Akira with his eyes of pure wisdom and hair that flows like leaves, there's Thalia with her sharp wit and deadly aim, and then there's Zara - the youngest but deadliest of them all. Together, they're a force to be reckoned with, a true terror of the wild woods. With their skills at our side, no foe can hide from us for long.",
+          "image": "/images/ally-rangers.webp",
+          "cost": [100, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Allies",
+              "data": {
+                "quantity": 1,
+                "name": "",
+                "desc": "Trio of forest hunters"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Olana the Wild Mage",
+          "description": "A whirlwind of unpredictable power, unleashing elemental fury with every step she takes and every word she speaks! Her hair crackles with electricity as storm clouds gather around her. Leaves and vines sprout from her very pores, wrapping her in a living, breathing cocoon that seems to grow more chaotic by the moment. With each gesture, she summons the raw force of nature - lightning bolts flashing across the sky, tornadoes spinning up from dust devils, or waves crashing against the shore. Her magic is wild and untamed, leaving destruction in its wake but also offering hope for a desperate world that needs such unbridled power to counterbalance the darkness.",
+          "image": "/images/ally-olana.webp",
+          "cost": [100, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Allies",
+              "data": {
+                "quantity": 1,
+                "name": "Olana the Wild Mage",
+                "desc": "Unstable nature magic caster"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Kevan the Dark blade",
+          "description": "Kevan the Dark Blade? A master of stealthy misdirection, always lurking just out of sight as he whips his deadly blades around with a deadly grace. His dark hair is slicked back, revealing his sharp features and piercing green eyes that seem to bore into your very soul. He wears black leather armor adorned with intricate silver filigree  - the perfect blend of style and function for any mission. And don' forget those razor-sharp blades at his hips! With Kevan on our side, we can strike from the shadows or take aim as an expert marksman. His arsenal includes all manner of deadly poisons and traps to catch our enemies off guard.",
+          "image": "/images/ally-kevan.webp",
+          "cost": [50, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Allies",
+              "data": {
+                "quantity": 1,
+                "name": "Kevan the Dark blade",
+                "desc": "Rogue and archer, master of poisons"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Lady Heraldia",
+          "description": "A radiant beacon of hope in the darkest of times, her healing powers coursing through your veins like warm sunlight on a cold winter's day. She wears ornate silver robes adorned with symbols of her faith, her long golden hair flowing like a river of wisdom down her back. Her eyes are pools of pure compassion and her smile can light up an entire room  - or lift the spirits of an entire army. With her staff in hand, she summons the divine to mend wounds and fortify defenses. But don't underestimate her defensive prowess! She can conjure walls of holy flames to block your enemies' path or summon celestial guardians to protect you from harm. Lady Herladia is a shining star in our quest for justice  - may her healing light never fade.",
+          "image": "/images/ally-heraldia.webp",
+          "cost": [50, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Allies",
+              "data": {
+                "quantity": 1,
+                "name": "Lady Heraldia",
+                "desc": "Cleric healer and defensive caster"
               }
             }
           ]
@@ -960,11 +1071,11 @@
           "effects": [
             {
               "type": "list",
-              "key": "skill",
+              "key": "Languages",
               "data": {
                 "quantity": 1,
-                "name": "Nature's Voice",
-                "desc": "Speak with beasts"
+                "name": "Beast Tongue",
+                "desc": "The capacity to speak the tongue of beasts"
               }
             }
           ]
