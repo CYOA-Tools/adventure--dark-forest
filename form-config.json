@@ -568,49 +568,6 @@
       ]
     },
     {
-      "title": "Allies",
-      "description": "Brothers sworn to your side, and who can be called upon in times of trouble",
-      "style": "list",
-      "choicesUnique": true,
-      "maxChoices": 3,
-      "options": [
-        {
-          "title": "Ragnar 'Thunderhammer' Erifson",
-          "description": "A gruff, battle-scarred dwarf with a heart of gold beneath his prickly exterior! When he lets loose with his trusty warhammer, the very earth shakes and giants tremble - but only after he's had his morning ale and a good belly laugh! A loyal ally to count on in the heat of battle. Just don't get him started on his least favorite topic: bards. The mere mention sends him stomping off in a huff, muttering something about 'too many notes'.",
-          "image": "/images/ally-ragnar.webp",
-          "cost": [100, 0],
-          "effects": [
-            {
-              "type": "list",
-              "key": "Allies",
-              "data": {
-                "quantity": 1,
-                "name": "Ragnar 'Mad Axe' Erifson",
-                "desc": "A quiet man, quick to a powerful beserker rage. +cats, -bards"
-              }
-            }
-          ]
-        },
-        {
-          "title": "Karrick 'Steel' Olborn",
-          "description": "A foul-mouthed human with a penchant for causing chaos! His battle tactics are as unpredictable as his next hangover, leaving enemies reeling from one wild swing to the next. Though his strategies may not always succeed... they never fail to entertain! Just don't expect him to lend you any of his famous 'Riot's Revenge' ale after a long day of pillaging - unless you're buying! As for romance, he has a soft spot for curvaceous beauty and isn't afraid to show it.",
-          "image": "/images/ally-karrick.webp",
-          "cost": [50, 0],
-          "effects": [
-            {
-              "type": "list",
-              "key": "Allies",
-              "data": {
-                "quantity": 1,
-                "name": "Karrick 'Steel' Olborn",
-                "desc": "Grumpy dwarven drunkard, cunning, if dangerous planner. +chubby ladies, -sheriffs"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Items",
       "description": "The right equipment can keep you alive when the tide turns against you.",
       "style": "boxes",
@@ -648,6 +605,229 @@
                 "quantity": 1,
                 "name": "Mechanical Talisman",
                 "desc": "Indicates danger, and direction, though less accurate futher away, max range under a mile"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Pouch of Holding",
+          "description": "A mystical pouch whose volumetric limit is as elusive as a mirage on a desert of stone. As you stuff its sturdy canvas with an endless array of trinkets and treasures, it remains as compact and manageable as always - until, that fateful moment when your own weighty burden becomes mere child's play compared to the unyielding mass within.",
+          "image": "/images/item-bag.webp",
+          "cost": [50, 0],
+          "unique": true,
+          "effects": [
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Pouch of Holding",
+                "desc": "A pouch of endless holding, if overpacked may suddenly break and weight it's true weight"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Flaming Wand",
+          "description": "A wand whose fiery inclinations know few bounds. With a flick of the wrist, it unleashes blazing tendrils to scorch the earth or dances of delicate flame patterns that warm the heart as much as they illuminate the dark. A true master of the arcane arts could harness its full fury and shape the very essence of fire itself",
+          "image": "/images/item-fire-wand.webp",
+          "cost": [200, 0],
+          "unique": true,
+          "effects": [
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Flaming Wand",
+                "desc": "Wand that controls flames, contains great power that can slowly be uncovered"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Helm of Darksight",
+          "description": "The Helm of Darksight reveals the hidden paths of night and darkness as clear as daylight. Darkness no longer hides it's secrets from you.",
+          "image": "/images/item-helm.webp",
+          "cost": [100, 0],
+          "unique": true,
+          "effects": [
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Helm of Darksight",
+                "desc": "Grants nightvision"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Direwolf Companion",
+          "description": "By the moon's pale glow, behold Fenrir, stalwart companion and fierce protector. His coat as white as freshly fallen snow, his fur as black as the shadows he stalks, and those piercing blue orbs - windows to the soul of a true wolf. His loyalty is unshakeable as the ancient earth beneath our feet, his heart beating with the rhythm of the wild. Together you'll face whatever darkness lies ahead, side by side in the eternal dance of predator and prey.",
+          "image": "/images/item-loyal-wolf.webp",
+          "cost": [100, 0],
+          "unique": true,
+          "effects": [
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Direwolf Companion",
+                "desc": "Loyal direwolf companion, piercing blue eyes"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slumberwatch",
+          "description": "Safeguard your rest with the soft glow of the Slumberwatch, its lantern light weaving a protective spell around your dreams like a lullaby sung by the stars themselves. Let it guard against the shadows and all their terrors as it casts a cozy circle of peace around you, a true haven from the unknown threats that lurk in the darkness. Your rest is its command, and so are you - free to dream without fear, ready for whatever adventures lie ahead.",
+          "image": "/images/item-magic-lantern.webp",
+          "cost": [150, 0],
+          "unique": true,
+          "effects": [
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Slumberwatch",
+                "desc": "Protects you as you sleep"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Token of the Ivy Lion",
+          "description": "In your hand, a small piece of petrified wood bears an ancient image of the mighty Ivy Lion - a symbol of strength and resilience in times of need. The power of summoning this noble creature lies within, awaiting that moment when courage is called upon to conquer adversity. This wooden guardian will appear forth and protect you with it's life for the course of three hours",
+          "image": "/images/item-shield.webp",
+          "cost": [50, 0],
+          "unique": true,
+          "effects": [
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Token of the Ivy Lion",
+                "desc": "Summon an Ivy Lion for three hours"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Halberd of Thorns",
+          "description": "Stand tall with the Halberd of Thorns, its razor-sharp barbs as unyielding as your resolve. This deadly instrument of war is said to pierce even the heart of darkness itself, when placed into the ground it can grow a wall of thorns four meters high and twenty wide, for one hour, allowing you to dictact the course of battle",
+          "image": "/images/item-spear.webp",
+          "cost": [100, 0],
+          "unique": true,
+          "effects": [
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Halberd of Thorns",
+                "desc": "Once a day summon a wall of thorns of any shape, up to four meters high and twenty meters long, lasts one hour"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Noble Steed",
+          "description": "Mount up with nobility and pride, for this majestic steed is not just a horse but a symbol of your worth and stature  - its coat shimmering like the finest silver, mane flowing like the golden sun. Its strength echoes the power within you as it gallops across the land, leaving all else in its regal wake. Ride into battle with honor and dignity at your side!",
+          "image": "/images/item-steed.webp",
+          "cost": [50, 0],
+          "unique": true,
+          "effects": [
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Noble Steed",
+                "desc": "A beautiful horse, swift and brave"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Sword of Homing",
+          "description": "Wield the Sword of Homing, that trusty companion which always finds its way back to your hand as surely as fate guides you through life's labyrinth   - no matter where you roam. Its light returns to you like a beacon in times of need, and so shall your path be illuminated with purpose",
+          "image": "/images/item-sword.webp",
+          "cost": [50, 0],
+          "unique": true,
+          "effects": [
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Sword of Homing",
+                "desc": "Can be recalled to return to your hand, it will cut through all it can to return"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Tome of Binding",
+          "description": "Unlock the Tome of Binding, that ancient book of spells which holds the power to bind both body and soul  - a true masterclass in arcane control. With every turn of its yellowed pages, you'll weave chains of reality as unbreakable as your resolve. A book full of powerful physical spells like the flying chains and spiders web, once three spells are committed to memory, al other spells will leave it's pages.",
+          "image": "/images/item-tome.webp",
+          "cost": [100, 0],
+          "unique": true,
+          "effects": [
+            {
+              "type": "list",
+              "key": "Items",
+              "data": {
+                "quantity": 1,
+                "name": "Tome of Binding",
+                "desc": "A book of spells once three are learnt, all others will disappear"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Allies",
+      "description": "Brothers sworn to your side, and who can be called upon in times of trouble",
+      "style": "list",
+      "choicesUnique": true,
+      "maxChoices": 3,
+      "options": [
+        {
+          "title": "Ragnar 'Thunderhammer' Erifson",
+          "description": "A gruff, battle-scarred dwarf with a heart of gold beneath his prickly exterior! When he lets loose with his trusty warhammer, the very earth shakes and giants tremble - but only after he's had his morning ale and a good belly laugh! A loyal ally to count on in the heat of battle. Just don't get him started on his least favorite topic: bards. The mere mention sends him stomping off in a huff, muttering something about 'too many notes'.",
+          "image": "/images/ally-ragnar.webp",
+          "cost": [100, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Allies",
+              "data": {
+                "quantity": 1,
+                "name": "Ragnar 'Mad Axe' Erifson",
+                "desc": "A quiet man, quick to a powerful beserker rage. +cats, -bards"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Karrick 'Steel' Olborn",
+          "description": "A foul-mouthed human with a penchant for causing chaos! His battle tactics are as unpredictable as his next hangover, leaving enemies reeling from one wild swing to the next. Though his strategies may not always succeed... they never fail to entertain! Just don't expect him to lend you any of his famous 'Riot's Revenge' ale after a long day of pillaging - unless you're buying! As for romance, he has a soft spot for curvaceous beauty and isn't afraid to show it.",
+          "image": "/images/ally-karrick.webp",
+          "cost": [50, 0],
+          "effects": [
+            {
+              "type": "list",
+              "key": "Allies",
+              "data": {
+                "quantity": 1,
+                "name": "Karrick 'Steel' Olborn",
+                "desc": "Grumpy dwarven drunkard, cunning, if dangerous planner. +chubby ladies, -sheriffs"
               }
             }
           ]
