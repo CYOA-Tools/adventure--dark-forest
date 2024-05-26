@@ -28,7 +28,7 @@
   },
   "intro": {
     "title": "A dark shadow looms over are an already dangerous land, a hero must step up to guide these disunited lands to a new golden era",
-    "introText": "Welcome, brave adventurer, as you stand at the crossroads of destiny. The winds howl through the endless forest canopy like a chorus of ancient spirits, their whispers weaving a tale of forgotten lore and bygone heroes. It is an age of darkness, when every village is but a faint flicker in the vast expanse of night, yet it may also be an era of rebirth for those brave enough to forge a new path. The Celtic fantasy world of DarkForest beckons you with its mystical forests, ancient ruins, and mythical creatures - will you answer the call, or shall these young lands plunge into ruin?",
+    "introText": "Welcome, brave adventurer, as you stand at the crossroads of destiny. The winds howl through the endless forest canopy like a chorus of ancient spirits, their whispers weaving a tale of forgotten lore and bygone heroes.\n\nIt is an age of darkness, when every village is but a faint flicker in the vast expanse of night, yet it may also be an era of rebirth for those brave enough to forge a new path. The Celtic fantasy world of DarkForest beckons you with its mystical forests, ancient ruins, and mythical creatures - will you answer the call, or shall these young lands plunge into ruin?",
     "subtitle": "You begin with 800 Choice Points, and 3 Skill Points, choose wisely",
     "baseImage": "/images/base-image.webp"
   },
@@ -42,7 +42,7 @@
       "options": [
         {
           "title": "Delarun - the Cave City",
-          "description": "In the depths of the earth, the dwarven city of Delarun thrums with ancient power, its tunnels winding like veins through granite rock. Here, the stout-hearted folk forge their destiny amidst glittering crystals and precious metals. Yet beneath the surface, rival clans jostle for dominance in a struggle that echoes the very earth itself.",
+          "description": "In the depths of the earth, the dwarven city of Delarun thrums with ancient power, its tunnels winding like veins through granite rock.\n\nHere, the stout-hearted folk forge their destiny amidst glittering crystals and precious metals. Yet beneath the surface, rival clans jostle for dominance in a struggle that echoes the very earth itself.",
           "image": "/images/origin-delarun.webp",
           "cost": [50, 0],
           "effects": [
@@ -77,7 +77,7 @@
         },
         {
           "title": "Bennet's Rest",
-          "description": "Bennet's Rest lies shrouded in darkness, once a beacon of nobility now mired by greed and tyranny. The ruling house of Aldhelm holds its subjects in an iron grip, siphoning off all prosperity for their own gluttonous desires. Yet beneath the yoke of oppression, the people of Bennet' rest find solace in their skill as horsemen - true messengers and warriors, cherished throughout the land, allowing this place to be one of the few safe from banditry",
+          "description": "Bennet's Rest lies shrouded in darkness, once a beacon of nobility now mired by greed and tyranny.\n\nThe ruling house of Aldhelm holds its subjects in an iron grip, siphoning off all prosperity for their own gluttonous desires.\n\nYet beneath the yoke of oppression, the people of Bennet' rest find solace in their skill as horsemen - true messengers and warriors, cherished throughout the land, allowing this place to be one of the few safe from banditry",
           "image": "/images/origin-bennets-rest.webp",
           "cost": [0, 0],
           "effects": [
@@ -90,7 +90,7 @@
         },
         {
           "title": "Dinnol Pits",
-          "description": "Here desperate souls are devoured by brutal realities. A city of stone and despair, where every breath is tainted by the stench of death and desperation. Its only exports are the prisons that breed more suffering and the mercenaries forged in those very hells. Vices writhe like maggots in every festering wound, survival a cruel joke played on the downtrodden. The power trio rules with iron fist: the cunning Johnsons  - old bloodline of hustlers and gamblers, the red falcons  - a motley crew of orphaned thugs who recruit only from the most wretched, and the enigmatic Hlothere  - nobles in name and mask, pulling strings of power from behind their lavish facade. Survival here means knowing your place and your threats   - for in Dinnol pits, one misstep can mean a lifetime in those very prisons.",
+          "description": "Here desperate souls are devoured by brutal realities. A city of stone and despair, where every breath is tainted by the stench of death and desperation. Its only exports are the prisons that breed more suffering and the mercenaries forged in those very hells. Vices writhe like maggots in every festering wound, survival a cruel joke played on the downtrodden.\n\nThe power trio rules with iron fist: the cunning Johnsons  - old bloodline of hustlers and gamblers, the red falcons  - a motley crew of orphaned thugs who recruit only from the most wretched, and the enigmatic Hlothere  - nobles in name and mask, pulling strings of power from behind their lavish facade.\n\nSurvival here means knowing your place and your threats   - for in Dinnol pits, one misstep can mean a lifetime in those very prisons.",
           "image": "/images/origin-dinnol-pits.webp",
           "cost": [0, 0],
           "effects": [
@@ -103,7 +103,7 @@
         },
         {
           "title": "Fort Gorrot",
-          "description": "Fort Gorrot stands like a crumbling behemoth on the precipice of a wild river, its very presence exuding an aura of darkness and decay. Once it was a mighty bastion of chivalry, but now it's a husk of what it once was - its glorious reputation sullied by the ambitions of Errant knights who sought fame in conquest rather than honor. And so we are left with High Chaplain Oswald guiding us through the wilderness of despair within those crumbling walls. Will his moral hand be strong enough to right the wrongs and unleash Fort Gorrot's full fury against a true enemy, or shall it's knight once again fall to greed.",
+          "description": "Fort Gorrot stands like a crumbling behemoth on the precipice of a wild river, its very presence exuding an aura of darkness and decay. Once it was a mighty bastion of chivalry, but now it's a husk of what it once was - its glorious reputation sullied by the ambitions of Errant knights who sought fame in conquest rather than honor. And so we are left with High Chaplain Oswald guiding us through the wilderness of despair within those crumbling walls.\n\nWill his moral hand be strong enough to right the wrongs and unleash Fort Gorrot's full fury against a true enemy, or shall it's knight once again fall to greed.",
           "image": "/images/origin-fort-gorrot.webp",
           "cost": [0, 0],
           "effects": [
@@ -116,7 +116,7 @@
         },
         {
           "title": "Gorruk's Hermitage",
-          "description": "High above the rest, a dwarven bastion stands steadfast against the tempestuous tides of darkness and chaos, its ancient stones impervious to the corrupting influences that plague the world below. Here Gorruk' s zealous followers hold fast to their unshakeable creed, their unwavering resolve illuminated by the beacon of truth. Should only the misguided heretics behold this radiant light, a harmonious kingdom of mortal and dwarf might yet be forged, sheltered from the looming shadows that threaten to engulf all. The call of Fort Eadharras beckons, though for Gorruk' s stalwart defenders it remains but a distant rumble in their ears, their gaze instead fixed upon the treacherous allurements of neighboring Looming Spires - a constant reminder of the perilous path they steadfastly avoid.",
+          "description": "High above the rest, a dwarven bastion stands steadfast against the tempestuous tides of darkness and chaos, its ancient stones impervious to the corrupting influences that plague the world below.\n\nHere Gorruk' s zealous followers hold fast to their unshakeable creed, their unwavering resolve illuminated by the beacon of truth. Should only the misguided heretics behold this radiant light, a harmonious kingdom of mortal and dwarf might yet be forged, sheltered from the looming shadows that threaten to engulf all.\n\nThe call of Fort Eadharras beckons, though for Gorruk' s stalwart defenders it remains but a distant rumble in their ears, their gaze instead fixed upon the treacherous allurements of neighboring Looming Spires - a constant reminder of the perilous path they steadfastly avoid.",
           "image": "/images/origin-hermitage.webp",
           "cost": [0, 0],
           "effects": [
@@ -129,7 +129,7 @@
         },
         {
           "title": "Lake Fardiir",
-          "description": "Lake Fardiir's scattered settlements cling to the rocky shore like barnacles on an ancient wreck, their humble dwellings huddled together in meager defiance of the unforgiving waters. The lord of this dominion holds sway with an iron fist and a heart of stone   - his taxes draining the already meager resources, leaving the villagers to eke out a bare existence from the very earth they till and the fish that struggle through the lake's icy depths. Yet still they cling to their rugged way of life, sustained by tales of freedom and adventure passed down through generations of hardy stock   - dreams of rebellion kindling in the hearts of young men like embers waiting for a spark.",
+          "description": "Lake Fardiir's scattered settlements cling to the rocky shore like barnacles on an ancient wreck, their humble dwellings huddled together in meager defiance of the unforgiving waters.\n\nThe lord of this dominion holds sway with an iron fist and a heart of stone   - his taxes draining the already meager resources, leaving the villagers to eke out a bare existence from the very earth they till and the fish that struggle through the lake's icy depths. Yet still they cling to their rugged way of life, sustained by tales of freedom and adventure passed down through generations of hardy stock   - dreams of rebellion kindling in the hearts of young men like embers waiting for a spark.",
           "image": "/images/origin-lake-fardiir.webp",
           "cost": [0, 0],
           "effects": [
@@ -142,7 +142,7 @@
         },
         {
           "title": "LandsKarn End",
-          "description": "Once the site of epic conflict, Landskarn End now bears witness to humanity's struggle against the corrupting tendrils of the Dinnol pits' dark power. Here, those seeking refuge from such evil are met with the Inquisition's iron-fisted resolve  - a crusade aimed at purifying the soul through rigid moral standards and public shaming. Censors patrol the streets, scrutinizing every move and thought to identify transgressors whose names are subsequently etched in the town square's infamous register of shame. But beneath this façade of moral rectitude, an insidious underworld thrives  - a labyrinthine network of illicit vices that burrow deep into the darkest recesses of human heart and soul.",
+          "description": "Once the site of epic conflict, Landskarn End now bears witness to humanity's struggle against the corrupting tendrils of the Dinnol pits' dark power.\n\nHere, those seeking refuge from such evil are met with the Inquisition's iron-fisted resolve  - a crusade aimed at purifying the soul through rigid moral standards and public shaming. Censors patrol the streets, scrutinizing every move and thought to identify transgressors whose names are subsequently etched in the town square's infamous register of shame. But beneath this façade of moral rectitude, an insidious underworld thrives  - a labyrinthine network of illicit vices that burrow deep into the darkest recesses of human heart and soul.",
           "image": "/images/origin-landskarn.webp",
           "cost": [0, 0],
           "effects": [
@@ -165,7 +165,7 @@
       "options": [
         {
           "title": "Human Hunter",
-          "description": "Your rugged boots have traversed countless miles of wildwood, leaving nary a footprint but those of your prey. With quiver full of arrows at your back and trusty spear in hand, you stalk the shadows with stealth as quiet as night. Your knwledge of stealth and tracking was often employed by men of the law to aid in the search for outlaws.",
+          "description": "Your rugged boots have traversed countless miles of wildwood, leaving nary a footprint but those of your prey. With quiver full of arrows at your back and trusty spear in hand, you stalk the shadows with stealth as quiet as night. Your knowledge of stealth and tracking was often employed by men of the law to aid in the search for outlaws.",
           "image": "/images/archetype-human-hunter.webp",
           "cost": [0, 0],
           "effects": [
@@ -187,7 +187,7 @@
         },
         {
           "title": "Human Warrior",
-          "description": "You are a warrior forged in the crucible of combat, every scar and bruise telling the tale of your unwavering courage! Your armor bears the scars of countless battles, as does your heart. With sword at side and shield emblazoned with the emblem of your fallen comrades, you charge into fray like a storm unleashed upon the land! What legends will you forge in these untamed realms? Will it be one of valor, or perhaps of vengeance? The gods themselves seem to whisper tales of your exploits, don't they?. Your fearlessness in battle when destroying corrupted beasts of this land has made you an ally of those who stand aside the plane of death, granting you the capacity to speak the tongue of the deathwatch carrion crows.",
+          "description": "You are a warrior forged in the crucible of combat, every scar and bruise telling the tale of your unwavering courage. Your armor bears the scars of countless battles, as does your heart. With sword at side and shield emblazoned with the emblem of your fallen comrades, you charge into fray like a storm unleashed upon the land.\n\nWhat legends will you forge in these untamed realms? Will it be one of valor, or perhaps of vengeance? The gods themselves seem to whisper tales of your exploits, don't they?. Your fearlessness in battle when destroying corrupted beasts of this land has made you an ally of those who stand aside the plane of death, granting you the capacity to speak the tongue of the deathwatch carrion crows.",
           "image": "/images/archetype-human-warrior.webp",
           "cost": [50, 0],
           "effects": [
@@ -227,7 +227,7 @@
         },
         {
           "title": "Human Wanderer",
-          "description": "'The Wanderer stands tall on the desolate plain, their worn leather boots planted firmly in the dusty ground as if rooted like an ancient tree. The weathered canvas backpack slung over their shoulder seems to blend seamlessly into the environment, its faded colors mimicking the hues of the sun-scorched earth and sky above. A wispy beard fringes their chin, a wild tangle of gray that speaks more of wisdom gained than age claimed. And yet, despite this rugged appearance, there is an air of quiet confidence about them - like a still pond reflecting the serenity of its surroundings, they exude tranquility deep within. But it's not just who they are or what they've seen that sets them apart, but also the staff in hand: a gnarled, twisted wood that seems to hum with a power as ancient and wild as the earth itself.",
+          "description": "'The Wanderer stands tall on the desolate plain, their worn leather boots planted firmly in the dusty ground as if rooted like an ancient tree. The weathered canvas backpack slung over their shoulder seems to blend seamlessly into the environment, its faded colors mimicking the hues of the sun-scorched earth and sky above. A wispy beard fringes their chin, a wild tangle of gray that speaks more of wisdom gained than age claimed.\n\nAnd yet, despite this rugged appearance, there is an air of quiet confidence about them - like a still pond reflecting the serenity of its surroundings, they exude tranquility deep within. But it's not just who they are or what they've seen that sets them apart, but also the staff in hand: a gnarled, twisted wood that seems to hum with a power as ancient and wild as the earth itself.",
           "image": "/images/archetype-human-wanderer.webp",
           "cost": [0, 0],
           "effects": [
@@ -302,7 +302,7 @@
         },
         {
           "title": "Dwarf Scout",
-          "description": "Striding across the battle-scarred plains like a living embodiment of his people's unyielding resolve. His dark beard flows behind him like a river of night, its braids woven with the silver threads of countless tales told and secrets kept. A mischievous glint in his eye hints at the assassin within  - one who can slip unnoticed into the shadows or strike swift and silent as a thunderclap. But it is also the diplomat's charm that opens doors, smooths ruffled feathers, and weaves alliances that will weather any storm of war. For Grimgold wears many hats and plays them all with equal aplomb: master of disguise, master of death, and master of negotiation  - a true Renaissance dwarf of old earth wit and cunning.",
+          "description": "Striding across the battle-scarred plains like a living embodiment of his people's unyielding resolve. His dark beard flows behind him like a river of night, its braids woven with the silver threads of countless tales told and secrets kept. A mischievous glint in his eye hints at the assassin within  - one who can slip unnoticed into the shadows or strike swift and silent as a thunderclap. But it is also the diplomat's charm that opens doors, smooths ruffled feathers, and weaves alliances that will weather any storm of war.\n\n For he is dwarf that wears many hats and plays them all with equal aplomb: master of disguise, master of death, and master of negotiation  - a true Renaissance dwarf of old earth wit and cunning.",
           "image": "/images/archetype-dwarf-scout.webp",
           "cost": [0, 0],
           "effects": [
@@ -324,7 +324,7 @@
         },
         {
           "title": "Dwarf Cleric",
-          "description": "Stepping forth with all the authority of ancient earth beneath his feet, eyes aglow like embers of eternal flame illuminate the face of this devout cleric, ever ready to defend the innocent or lead them in fervent song of praise. At his side hangs his sacred tome, the revered 'Chronicles of Deep Earth', the sacred tome of their people's history and spiritual traditions. His voice booms like thunder from the mountains, shaking the very foundations of those who hear it  - a true shepherd of old earth' s faithful.",
+          "description": "Stepping forth with all the authority of ancient earth beneath his feet, eyes aglow like embers of eternal flame illuminate the face of this devout cleric, ever ready to defend the innocent or lead them in fervent song of praise.\n\nAt his side hangs his sacred tome, the revered 'Chronicles of Deep Earth', the sacred tome of their people's history and spiritual traditions. His voice booms like thunder from the mountains, shaking the very foundations of those who hear it  - a true shepherd of old earth' s faithful.",
           "image": "/images/archetype-dwarf-cleric.webp",
           "cost": [0, 0],
           "effects": [
@@ -1124,6 +1124,11 @@
       "familyMain": "'Sedan SC', sans",
       "rootSize": "18px",
       "textColor": "#000"
+    },
+    "paragraph": {
+      "lineHeight": "1.7",
+      "letterSpacing": "1.2px",
+      "fontFamily": "Georgia, serif"
     },
     "main": {
       "backgroundColor": "linear-gradient(61deg, rgba(73,101,1,1) -20%, rgba(92,123,20,1) 57%, rgba(2,60,64,1) 130%);",
