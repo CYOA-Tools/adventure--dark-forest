@@ -16,8 +16,8 @@
       }
     ],
     "showGitLink": true,
-    "altLink": "https://github.com/aronedwards91/CYOA-base",
-    "altLinkText": "ExLink",
+    "altLink": "https://github.com/CYOA-Tools/adventure--dark-forest",
+    "altLinkText": "Code",
     "effectOrdering": ["Archetype", "Origin", "Allies", "Languages", "Items"]
   },
   "title": {
